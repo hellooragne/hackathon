@@ -1,0 +1,21 @@
+../test/pcm/16k.pcm	pcm16k	中共中央政治局常委国务院总理温家宝。
+../test/pcm/16k.pcm	pcm16k	中共中央政治局常委国务院总理温家宝。
+./a.wav	pcm16k	pop。
+./a.wav	pcm16k	pop。
+./output.raw	pcm16k	pop。
+./output.pcm	pcm16k	pop。
+./output.pcm	pcm16k	
+../test/pcm/16k.pcm	pcm16k	中共中央政治局常委国务院总理温家宝。
+./output.pcm	pcm16k	
+../test/pcm/16k.pcm	pcm16k	中共中央政治局常委国务院总理温家宝。
+../test/pcm/16k.pcm	pcm8k	嘿嘿，红会，王座。她。
+./output.pcm	pcm16k	Gai。晨。
+./output.pcm	pcm16k	
+./output.pcm	pcm16k	Gai。晨。
+./output.pcm	pcm8k	毒。
+./output.pcm	pcm8k	毒。
+./output.pcm	pcm8k	浮。无题。
+./output.pcm	pcm8k	浮。无题。
+./output.pcm	pcm8k	浮。无题。
+./output.pcm	pcm8k	抱歉，为了不影响客人休息，请工作时间再致电。
+../test/pcm/16k.pcm	pcm8k	嘿嘿，红会，王座。她。
