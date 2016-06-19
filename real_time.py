@@ -3,10 +3,12 @@ import subprocess
 import chardet
 import MySQLdb
 import string
+import datetime
+import thread
 
 
   
-address = ('127.0.0.1', 8000)  
+address = ('127.0.0.1', 9001)  
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  
 s.bind(address)  
 
@@ -18,111 +20,99 @@ try:
     #for i in range(290001, 290001 + 8000):
         #cur.execute("insert into subscriber (username, domain, password) values (" + str(i) + ", '10.2.34.87', '1234')")
 except MySQLdb.Error,e:
+
      print "Mysql Error %d: %s" % (e.args[0], e.args[1])
+
+
+
+def real_time_domain():
+    address = ('127.0.0.1', 9000)  
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  
+    s.bind(address)
+
+    while True:
+        data, addr = s.recvfrom(2048)  
+
+        print "received:", data, "from", addr 
+        
+        global uuid
+        uuid = data
+ 
+        global rtp_num
+        rtp_num = 0
+       
+    
+    s.close() 
+
+
+thread.start_new_thread(real_time_domain, ())
+
 
   
 while True:  
 
     try:
         data, addr = s.recvfrom(2048)  
+
         if not data:  
             print "client has exist"  
             break  
-        print "received:", data, "from", addr  
 
-        time.sleep(2)
-
-
-        #-----process all voice
-
-        p =subprocess.Popen('ffmpeg -i /home/hackathon/source/hackathon/record/' + data + '.wav -f s16le -ar 8000 -acodec pcm_s16le /home/hackathon/source/hackathon/record/' + data + '.pcm', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
-
-        #baidu 
-        cur.execute("set names utf8;") 
-        str1 = os.popen("python /home/hackathon/source/hackathon/recognition/baidu.py  /home/hackathon/source/hackathon/record/" + data +".wav").read()
-        print str1
-        cur.execute("insert into voice_recognition (uuid, type, supplier, result) values ('" + data + "', 'all', 'baidu', '" + str1 + "')")
-        conn.commit()
-
-        #yunzhiying
-        p =subprocess.Popen('sample v2.hivoice.cn 80 /home/hackathon/source/hackathon/record/' + data + '.pcm ./result.txt', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
-        str1 = p.stderr.readline()
-        print str1
-        cur.execute("insert into voice_recognition (uuid, type, supplier, result) values ('" + data + "', 'all', 'yunzhiying', '" + str1 + "')")
-        conn.commit()
+        #print "received:", data, "from", addr  
+        
+        global uuid
+        global rtp_num
 
 
+        if uuid == "":
+            continue  
+        
+        if rtp_num < 3:
+            rtp_num = rtp_num + 1
+            continue
+        else:
+            rtp_num = 0
+            print "rtp_num over"
 
-        #------process cdr 
-        p =subprocess.Popen('/home/hackathon/source/hackathon/cdr/upload_cdr.pl', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
-        #print p.stderr.readline()
-
-
-
+        datetime_m = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
         #------process in  voice
-        p =subprocess.Popen('ffmpeg -f mulaw -ar 8000 -ac 1 -i /home/hackathon/source/hackathon/record/'+data+'-in.PCMU -ar 8000 -ac 1 /home/hackathon/source/hackathon/record/'+data+'-in.wav', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+        p =subprocess.Popen('ffmpeg -y -f mulaw -ar 8000 -ac 1 -i /home/hackathon/source/hackathon/record/'+uuid+'-in.PCMU -ar 8000 -ac 1 /home/hackathon/source/hackathon/record/'+uuid+'-in.wav', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
         #print p.stderr.readline()
 
-        time.sleep(2)
-
-        p =subprocess.Popen('ffmpeg -i /home/hackathon/source/hackathon/record/' + data + '-in.wav -f s16le -ar 8000 -acodec pcm_s16le /home/hackathon/source/hackathon/record/' + data + '-in.pcm', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
-        #print p.stderr.readline()
 
 
         try:
             #baidu
-            str2 = os.popen("python /home/hackathon/source/hackathon/recognition/baidu.py  /home/hackathon/source/hackathon/record/" + data +"-in.wav").read()
+            #print "python /home/hackathon/source/hackathon/recognition/baidu.py  /home/hackathon/source/hackathon/record/" + uuid +"-in.wav"
+            str2 = os.popen("python /home/hackathon/source/hackathon/recognition/baidu.py  /home/hackathon/source/hackathon/record/" + uuid +"-in.wav").read()
             print str2
-            cur.execute("insert into voice_recognition (uuid, type, supplier, result) values ('" + data + "', 'in',  'baidu', '" + str2 + "')")
-            conn.commit()
+            #cur.execute("insert into voice_real_time (uuid, type, supplier, result, start_time) values ('" + uuid + "', 'in',  'baidu', '" + str2 + "', " + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + ")")
+            #conn.commit()
         except MySQLdb.Error,e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
-        try:
-            #yunzhisheng
-            p =subprocess.Popen('sample v2.hivoice.cn 80 /home/hackathon/source/hackathon/record/' + data + '-in.pcm ./result.txt', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
-            str1 = p.stderr.readline()
-            print str1
-            cur.execute("insert into voice_recognition (uuid, type, supplier, result) values ('" + data + "', 'in', 'yunzhiying', '" + str1 + "')")
-            conn.commit()
-        except MySQLdb.Error,e:
-            print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
-        
+
 
         #------process out  voice
-        p =subprocess.Popen('ffmpeg -f mulaw -ar 8000 -ac 1 -i /home/hackathon/source/hackathon/record/' + data + '-out.PCMU -ar 8000 -ac 1 /home/hackathon/source/hackathon/record/' + data +'-out.wav', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+        p =subprocess.Popen('ffmpeg -y -f mulaw -ar 8000 -ac 1 -i /home/hackathon/source/hackathon/record/' + uuid + '-out.PCMU -ar 8000 -ac 1 /home/hackathon/source/hackathon/record/' + uuid +'-out.wav', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
         #print p.stderr.readline()
 
-        time.sleep(2)
 
-        p =subprocess.Popen('ffmpeg -i /home/hackathon/source/hackathon/record/' + data + '-out.wav -f s16le -ar 8000 -acodec pcm_s16le /home/hackathon/source/hackathon/record/' + data + '-out.pcm', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
-        #print p.stderr.readline()
-
-                
 
         try:
             #baidu
-            str3 = os.popen("python /home/hackathon/source/hackathon/recognition/baidu.py  /home/hackathon/source/hackathon/record/" + data +"-out.wav").read()
+            str3 = os.popen("python /home/hackathon/source/hackathon/recognition/baidu.py  /home/hackathon/source/hackathon/record/" + uuid +"-out.wav").read()
             print str3
-            cur.execute("insert into voice_recognition (uuid, type, supplier, result) values ('" + data + "', 'out', 'baidu', '" + str3 + "')")
-            conn.commit()
-        except MySQLdb.Error,e:
+            #cur.execute("insert into voice_real_time (uuid, type, supplier, result, start_time) values ('" + uuid + "', 'out', 'baidu', '" + str3 + "', " + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + ")")
+            #conn.commit()
+        except Exception , e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
-        try:
-            #yunzhisheng
-            p =subprocess.Popen('sample v2.hivoice.cn 80 /home/hackathon/source/hackathon/record/' + data + '-out.pcm ./result.txt', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
-            str1 = p.stderr.readline()
-            print str1
-            cur.execute("insert into voice_recognition (uuid, type, supplier, result) values ('" + data + "', 'out', 'yunzhiying', '" + str1 + "')")
-            conn.commit()
-        except MySQLdb.Error,e:
-            print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
-    except MySQLdb.Error,e:
-        print "Mysql Error %d: %s" % (e.args[0], e.args[1])
+    except Exception , e:
+        print e 
 
 
 s.close() 

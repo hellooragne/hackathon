@@ -198,3 +198,29 @@
 /home/hackathon/source/hackathon/record/d80a8daa-3450-11e6-9a54-23801348f97a.pcm	pcm8k	她。
 /home/hackathon/source/hackathon/record/d80a8daa-3450-11e6-9a54-23801348f97a-in.pcm	pcm8k	爱。
 /home/hackathon/source/hackathon/record/d80a8daa-3450-11e6-9a54-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/d85e4738-355e-11e6-bb63-23801348f97a-in.pcm	pcm8k	爱。
+/home/hackathon/source/hackathon/record/d85e4738-355e-11e6-bb63-23801348f97a-out.pcm	pcm8k	等。
+/home/hackathon/source/hackathon/record/1ad0ad90-355f-11e6-bb8d-23801348f97a-in.pcm	pcm8k	等。
+/home/hackathon/source/hackathon/record/1ad0ad90-355f-11e6-bb8d-23801348f97a-out.pcm	pcm8k	雾。
+/home/hackathon/source/hackathon/record/980a1f4e-355f-11e6-bbbc-23801348f97a-in.pcm	pcm8k	她。
+/home/hackathon/source/hackathon/record/980a1f4e-355f-11e6-bbbc-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/adf360d6-355f-11e6-bbe5-23801348f97a-in.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/adf360d6-355f-11e6-bbe5-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/d5483b0c-355f-11e6-bc0e-23801348f97a-in.pcm	pcm8k	浮。
+/home/hackathon/source/hackathon/record/d5483b0c-355f-11e6-bc0e-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/8df46ab0-35d6-11e6-872b-23801348f97a-in.pcm	pcm8k	浮。
+/home/hackathon/source/hackathon/record/8df46ab0-35d6-11e6-872b-23801348f97a-out.pcm	pcm8k	SIG。
+/home/hackathon/source/hackathon/record/c48b4f3a-35d6-11e6-8757-23801348f97a-in.pcm	pcm8k	信。
+/home/hackathon/source/hackathon/record/c48b4f3a-35d6-11e6-8757-23801348f97a-out.pcm	pcm8k	雾。
+/home/hackathon/source/hackathon/record/08c54fa4-35f3-11e6-89f8-23801348f97a-in.pcm	pcm8k	毒。
+/home/hackathon/source/hackathon/record/08c54fa4-35f3-11e6-89f8-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/23e3c964-35f3-11e6-8a21-23801348f97a-in.pcm	pcm8k	浮。
+/home/hackathon/source/hackathon/record/23e3c964-35f3-11e6-8a21-23801348f97a-out.pcm	pcm8k	春。
+/home/hackathon/source/hackathon/record/4ac10100-35f3-11e6-8a4a-23801348f97a-in.pcm	pcm8k	浮。
+/home/hackathon/source/hackathon/record/4ac10100-35f3-11e6-8a4a-23801348f97a-out.pcm	pcm8k	看。
+/home/hackathon/source/hackathon/record/c359cdae-35f3-11e6-8a7c-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/c359cdae-35f3-11e6-8a7c-23801348f97a-in.pcm	pcm8k	爱。
+/home/hackathon/source/hackathon/record/c359cdae-35f3-11e6-8a7c-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/09ce5818-35f4-11e6-8aa8-23801348f97a.pcm	pcm8k	毒。
+/home/hackathon/source/hackathon/record/09ce5818-35f4-11e6-8aa8-23801348f97a-in.pcm	pcm8k	Mai。
+/home/hackathon/source/hackathon/record/09ce5818-35f4-11e6-8aa8-23801348f97a-out.pcm	pcm8k	浮。
