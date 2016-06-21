@@ -139,9 +139,11 @@ while True:
 
 
         str1 = os.popen("python /home/hackathon/git/hackathon/wave/plot2.py " + data).read()
-        str2 = os.popen("python /home/hackathon/git/hackathon/wave/plot2.py " + data + "-in").read()
-        str3 = os.popen("python /home/hackathon/git/hackathon/wave/plot2.py " + data + "-out").read()
         print str1
+        str2 = os.popen("python /home/hackathon/git/hackathon/wave/plot2.py " + data + "-in").read()
+        print str2
+        str3 = os.popen("python /home/hackathon/git/hackathon/wave/plot2.py " + data + "-out").read()
+        print str3
     except MySQLdb.Error,e:
         print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 

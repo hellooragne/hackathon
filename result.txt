@@ -224,3 +224,197 @@
 /home/hackathon/source/hackathon/record/09ce5818-35f4-11e6-8aa8-23801348f97a.pcm	pcm8k	毒。
 /home/hackathon/source/hackathon/record/09ce5818-35f4-11e6-8aa8-23801348f97a-in.pcm	pcm8k	Mai。
 /home/hackathon/source/hackathon/record/09ce5818-35f4-11e6-8aa8-23801348f97a-out.pcm	pcm8k	浮。
+/home/hackathon/source/hackathon/record/d24cd950-35f8-11e6-8b39-23801348f97a.pcm	pcm8k	信。浮。
+/home/hackathon/source/hackathon/record/d24cd950-35f8-11e6-8b39-23801348f97a-in.pcm	pcm8k	Spam。key。
+/home/hackathon/source/hackathon/record/d24cd950-35f8-11e6-8b39-23801348f97a-out.pcm	pcm8k	Spam。浮。
+/home/hackathon/source/hackathon/record/33179770-35f9-11e6-8b66-23801348f97a.pcm	pcm8k	她。紫浪。
+/home/hackathon/source/hackathon/record/33179770-35f9-11e6-8b66-23801348f97a-in.pcm	pcm8k	她。key。
+/home/hackathon/source/hackathon/record/33179770-35f9-11e6-8b66-23801348f97a-out.pcm	pcm8k	信。
+/home/hackathon/source/hackathon/record/b441c7c2-35fd-11e6-8be6-23801348f97a.pcm	pcm8k	她。
+/home/hackathon/source/hackathon/record/b441c7c2-35fd-11e6-8be6-23801348f97a-in.pcm	pcm8k	stay。晨。
+/home/hackathon/source/hackathon/record/b441c7c2-35fd-11e6-8be6-23801348f97a-out.pcm	pcm8k	信。key。
+/home/hackathon/source/hackathon/record/c1d2616c-35fd-11e6-8c0f-23801348f97a.pcm	pcm8k	浮。逃。
+/home/hackathon/source/hackathon/record/c1d2616c-35fd-11e6-8c0f-23801348f97a-in.pcm	pcm8k	浮。
+/home/hackathon/source/hackathon/record/c1d2616c-35fd-11e6-8c0f-23801348f97a-out.pcm	pcm8k	信。信。
+/home/hackathon/source/hackathon/record/e1c4a250-35fd-11e6-8c39-23801348f97a.pcm	pcm8k	浮。
+/home/hackathon/source/hackathon/record/e1c4a250-35fd-11e6-8c39-23801348f97a-in.pcm	pcm8k	sky。籣。
+/home/hackathon/source/hackathon/record/e1c4a250-35fd-11e6-8c39-23801348f97a-out.pcm	pcm8k	sting。stay。sting。
+/home/hackathon/source/hackathon/record/2ee85a94-3609-11e6-8d68-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/2ee85a94-3609-11e6-8d68-23801348f97a-in.pcm	pcm8k	SHAO。
+/home/hackathon/source/hackathon/record/2ee85a94-3609-11e6-8d68-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/76af9e96-3609-11e6-8d93-23801348f97a.pcm	pcm8k	够。浮。
+/home/hackathon/source/hackathon/record/76af9e96-3609-11e6-8d93-23801348f97a-in.pcm	pcm8k	sting。她。
+/home/hackathon/source/hackathon/record/76af9e96-3609-11e6-8d93-23801348f97a-out.pcm	pcm8k	止。
+/home/hackathon/source/hackathon/record/ff445daa-3609-11e6-8dc3-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/ff445daa-3609-11e6-8dc3-23801348f97a-in.pcm	pcm8k	SHAO。
+/home/hackathon/source/hackathon/record/ff445daa-3609-11e6-8dc3-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/5f6ce1fc-360a-11e6-8df5-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/5f6ce1fc-360a-11e6-8df5-23801348f97a-in.pcm	pcm8k	key。
+/home/hackathon/source/hackathon/record/5f6ce1fc-360a-11e6-8df5-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/f8fff516-360a-11e6-8e28-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/f8fff516-360a-11e6-8e28-23801348f97a-in.pcm	pcm8k	她。
+/home/hackathon/source/hackathon/record/f8fff516-360a-11e6-8e28-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/25cca454-360b-11e6-8e51-23801348f97a.pcm	pcm8k	看。
+/home/hackathon/source/hackathon/record/25cca454-360b-11e6-8e51-23801348f97a-in.pcm	pcm8k	止。
+/home/hackathon/source/hackathon/record/25cca454-360b-11e6-8e51-23801348f97a-out.pcm	pcm8k	信。
+/home/hackathon/source/hackathon/record/7fec0eba-3616-11e6-9035-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/7fec0eba-3616-11e6-9035-23801348f97a-in.pcm	pcm8k	灯。
+/home/hackathon/source/hackathon/record/7fec0eba-3616-11e6-9035-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/1b37d250-3617-11e6-9064-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/1b37d250-3617-11e6-9064-23801348f97a-in.pcm	pcm8k	雾。
+/home/hackathon/source/hackathon/record/1b37d250-3617-11e6-9064-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/c6ea40b0-3617-11e6-9097-23801348f97a.pcm	pcm8k	SHAO。
+/home/hackathon/source/hackathon/record/c6ea40b0-3617-11e6-9097-23801348f97a-in.pcm	pcm8k	浮。
+/home/hackathon/source/hackathon/record/c6ea40b0-3617-11e6-9097-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/8248e474-3618-11e6-90ca-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/8248e474-3618-11e6-90ca-23801348f97a-in.pcm	pcm8k	爱。
+/home/hackathon/source/hackathon/record/8248e474-3618-11e6-90ca-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/29fab1d4-3619-11e6-9103-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/29fab1d4-3619-11e6-9103-23801348f97a-in.pcm	pcm8k	灯。晨。
+/home/hackathon/source/hackathon/record/29fab1d4-3619-11e6-9103-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/7c30bf02-3619-11e6-918a-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/7c30bf02-3619-11e6-918a-23801348f97a-in.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/7c30bf02-3619-11e6-918a-23801348f97a-out.pcm	pcm8k	她。
+/home/hackathon/source/hackathon/record/0a6001fc-361a-11e6-9228-23801348f97a.pcm	pcm8k	浮。爱。
+/home/hackathon/source/hackathon/record/0a6001fc-361a-11e6-9228-23801348f97a-in.pcm	pcm8k	浮。逃。
+/home/hackathon/source/hackathon/record/0a6001fc-361a-11e6-9228-23801348f97a-out.pcm	pcm8k	止。籣。
+/home/hackathon/source/hackathon/record/1f914ef0-361a-11e6-924f-23801348f97a.pcm	pcm8k	雾。毒。
+/home/hackathon/source/hackathon/record/1f914ef0-361a-11e6-924f-23801348f97a-in.pcm	pcm8k	浮。逃。
+/home/hackathon/source/hackathon/record/1f914ef0-361a-11e6-924f-23801348f97a-out.pcm	pcm8k	Gai。信。
+/home/hackathon/source/hackathon/record/dac68aa2-3627-11e6-9389-23801348f97a.pcm	pcm8k	晨。她。
+/home/hackathon/source/hackathon/record/dac68aa2-3627-11e6-9389-23801348f97a-in.pcm	pcm8k	Pissy。
+/home/hackathon/source/hackathon/record/dac68aa2-3627-11e6-9389-23801348f97a-out.pcm	pcm8k	爱。晨。
+/home/hackathon/source/hackathon/record/1def8d88-3628-11e6-93b6-23801348f97a.pcm	pcm8k	爱。父子。
+/home/hackathon/source/hackathon/record/1def8d88-3628-11e6-93b6-23801348f97a-in.pcm	pcm8k	她。逃。
+/home/hackathon/source/hackathon/record/1def8d88-3628-11e6-93b6-23801348f97a-out.pcm	pcm8k	父子。浮。
+/home/hackathon/source/hackathon/record/655aa950-3628-11e6-93de-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/655aa950-3628-11e6-93de-23801348f97a-in.pcm	pcm8k	止。活。
+/home/hackathon/source/hackathon/record/655aa950-3628-11e6-93de-23801348f97a-out.pcm	pcm8k	晨。爱。爱。
+/home/hackathon/source/hackathon/record/e62e21ce-3628-11e6-940c-23801348f97a.pcm	pcm8k	不痛。浮。
+/home/hackathon/source/hackathon/record/e62e21ce-3628-11e6-940c-23801348f97a-in.pcm	pcm8k	止。爱。
+/home/hackathon/source/hackathon/record/e62e21ce-3628-11e6-940c-23801348f97a-out.pcm	pcm8k	Ray。
+/home/hackathon/source/hackathon/record/14374956-3629-11e6-9436-23801348f97a.pcm	pcm8k	看。
+/home/hackathon/source/hackathon/record/14374956-3629-11e6-9436-23801348f97a-in.pcm	pcm8k	信。
+/home/hackathon/source/hackathon/record/14374956-3629-11e6-9436-23801348f97a-out.pcm	pcm8k	她。
+/home/hackathon/source/hackathon/record/8a9fd60c-3684-11e6-9dff-23801348f97a-in.pcm	pcm8k	不。
+/home/hackathon/source/hackathon/record/8a9fd60c-3684-11e6-9dff-23801348f97a-out.pcm	pcm8k	霜降。
+/home/hackathon/source/hackathon/record/b891d20e-3684-11e6-9e2c-23801348f97a.pcm	pcm8k	说。
+/home/hackathon/source/hackathon/record/b891d20e-3684-11e6-9e2c-23801348f97a-in.pcm	pcm8k	无敌。
+/home/hackathon/source/hackathon/record/b891d20e-3684-11e6-9e2c-23801348f97a-out.pcm	pcm8k	说。
+/home/hackathon/source/hackathon/record/d6d806d4-3684-11e6-9e56-23801348f97a.pcm	pcm8k	说。
+/home/hackathon/source/hackathon/record/d6d806d4-3684-11e6-9e56-23801348f97a-in.pcm	pcm8k	说。
+/home/hackathon/source/hackathon/record/d6d806d4-3684-11e6-9e56-23801348f97a-out.pcm	pcm8k	得失。
+/home/hackathon/source/hackathon/record/e9026f34-3684-11e6-9e7d-23801348f97a.pcm	pcm8k	一。常喜。
+/home/hackathon/source/hackathon/record/e9026f34-3684-11e6-9e7d-23801348f97a-in.pcm	pcm8k	一。
+/home/hackathon/source/hackathon/record/e9026f34-3684-11e6-9e7d-23801348f97a-out.pcm	pcm8k	一。马思唯。
+/home/hackathon/source/hackathon/record/22cdb606-3685-11e6-9eaa-23801348f97a.pcm	pcm8k	一。止。
+/home/hackathon/source/hackathon/record/22cdb606-3685-11e6-9eaa-23801348f97a-in.pcm	pcm8k	艾丽。
+/home/hackathon/source/hackathon/record/22cdb606-3685-11e6-9eaa-23801348f97a-out.pcm	pcm8k	艾丽。念。
+/home/hackathon/source/hackathon/record/b3b77fa6-3687-11e6-9f11-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/b3b77fa6-3687-11e6-9f11-23801348f97a-in.pcm	pcm8k	US。
+/home/hackathon/source/hackathon/record/b3b77fa6-3687-11e6-9f11-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/fdd0e096-3687-11e6-9f42-23801348f97a.pcm	pcm8k	她。
+/home/hackathon/source/hackathon/record/fdd0e096-3687-11e6-9f42-23801348f97a-in.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/fdd0e096-3687-11e6-9f42-23801348f97a-out.pcm	pcm8k	浮。
+/home/hackathon/source/hackathon/record/2b80b434-3689-11e6-9f88-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/2b80b434-3689-11e6-9f88-23801348f97a-in.pcm	pcm8k	爱。
+/home/hackathon/source/hackathon/record/2b80b434-3689-11e6-9f88-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/6a9a65a2-3689-11e6-9fba-23801348f97a.pcm	pcm8k	看。
+/home/hackathon/source/hackathon/record/6a9a65a2-3689-11e6-9fba-23801348f97a-in.pcm	pcm8k	浮。
+/home/hackathon/source/hackathon/record/6a9a65a2-3689-11e6-9fba-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/8ef66400-3689-11e6-9fe5-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/8ef66400-3689-11e6-9fe5-23801348f97a-in.pcm	pcm8k	sky。key。
+/home/hackathon/source/hackathon/record/8ef66400-3689-11e6-9fe5-23801348f97a-out.pcm	pcm8k	大地。她。
+/home/hackathon/source/hackathon/record/4d3bdff2-368b-11e6-a033-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/4d3bdff2-368b-11e6-a033-23801348f97a-in.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/4d3bdff2-368b-11e6-a033-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/afbcb4f8-368b-11e6-a063-23801348f97a.pcm	pcm8k	看。
+/home/hackathon/source/hackathon/record/afbcb4f8-368b-11e6-a063-23801348f97a-in.pcm	pcm8k	sky。stay。
+/home/hackathon/source/hackathon/record/afbcb4f8-368b-11e6-a063-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/24a60d0a-368c-11e6-a096-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/24a60d0a-368c-11e6-a096-23801348f97a-in.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/24a60d0a-368c-11e6-a096-23801348f97a-out.pcm	pcm8k	爱。
+/home/hackathon/source/hackathon/record/4dbe6e4e-368c-11e6-a0c2-23801348f97a.pcm	pcm8k	哦。
+/home/hackathon/source/hackathon/record/4dbe6e4e-368c-11e6-a0c2-23801348f97a-in.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/4dbe6e4e-368c-11e6-a0c2-23801348f97a-out.pcm	pcm8k	哦。key。
+/home/hackathon/source/hackathon/record/9a7d98e0-368c-11e6-a0f0-23801348f97a.pcm	pcm8k	123456。
+/home/hackathon/source/hackathon/record/9a7d98e0-368c-11e6-a0f0-23801348f97a-in.pcm	pcm8k	一加一。
+/home/hackathon/source/hackathon/record/9a7d98e0-368c-11e6-a0f0-23801348f97a-out.pcm	pcm8k	她。
+/home/hackathon/source/hackathon/record/f2f86856-368c-11e6-a11c-23801348f97a.pcm	pcm8k	籣。止。
+/home/hackathon/source/hackathon/record/f2f86856-368c-11e6-a11c-23801348f97a-in.pcm	pcm8k	一。
+/home/hackathon/source/hackathon/record/f2f86856-368c-11e6-a11c-23801348f97a-out.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/3e42e908-368d-11e6-a14b-23801348f97a.pcm	pcm8k	3点半。
+/home/hackathon/source/hackathon/record/3e42e908-368d-11e6-a14b-23801348f97a-in.pcm	pcm8k	Gai。SHAO。
+/home/hackathon/source/hackathon/record/3e42e908-368d-11e6-a14b-23801348f97a-out.pcm	pcm8k	爱。念。
+/home/hackathon/source/hackathon/record/b64f9482-368d-11e6-a17d-23801348f97a.pcm	pcm8k	老狼。上班了，就是了。爱。
+/home/hackathon/source/hackathon/record/b64f9482-368d-11e6-a17d-23801348f97a-in.pcm	pcm8k	放看。上班了去吃饭。
+/home/hackathon/source/hackathon/record/b64f9482-368d-11e6-a17d-23801348f97a-out.pcm	pcm8k	放伤寒。上班吃饭。
+/home/hackathon/source/hackathon/record/3ea3f1f2-368e-11e6-a1b8-23801348f97a.pcm	pcm8k	1234567八九十，哦。
+/home/hackathon/source/hackathon/record/3ea3f1f2-368e-11e6-a1b8-23801348f97a-in.pcm	pcm8k	123456。
+/home/hackathon/source/hackathon/record/3ea3f1f2-368e-11e6-a1b8-23801348f97a-out.pcm	pcm8k	任务了，那就。
+/home/hackathon/source/hackathon/record/6d7d2548-368e-11e6-a1e3-23801348f97a.pcm	pcm8k	梦到你了吧好像。呵呵。
+/home/hackathon/source/hackathon/record/6d7d2548-368e-11e6-a1e3-23801348f97a-in.pcm	pcm8k	某我你准备好。
+/home/hackathon/source/hackathon/record/6d7d2548-368e-11e6-a1e3-23801348f97a-out.pcm	pcm8k	孟子。
+/home/hackathon/source/hackathon/record/93d26d34-368e-11e6-a20e-23801348f97a.pcm	pcm8k	吗，这就是爱的大巴到。
+/home/hackathon/source/hackathon/record/93d26d34-368e-11e6-a20e-23801348f97a-in.pcm	pcm8k	梦宝你这么帅，大妈帮忙。
+/home/hackathon/source/hackathon/record/93d26d34-368e-11e6-a20e-23801348f97a-out.pcm	pcm8k	哦哦你这么帅。
+/home/hackathon/source/hackathon/record/cb636bea-368e-11e6-a25d-23801348f97a.pcm	pcm8k	来Bay的到不了。明天就可以了，肚子。喂喂喂你好你好你好。
+/home/hackathon/source/hackathon/record/cb636bea-368e-11e6-a25d-23801348f97a-in.pcm	pcm8k	你在这，要对干嘛。花。
+/home/hackathon/source/hackathon/record/cb636bea-368e-11e6-a25d-23801348f97a-out.pcm	pcm8k	贝贝。应该是，累勒。喂喂喂。
+/home/hackathon/source/hackathon/record/0540d71c-368f-11e6-a287-23801348f97a.pcm	pcm8k	塘沽晚上车里面坐着谁，孟浩。
+/home/hackathon/source/hackathon/record/0540d71c-368f-11e6-a287-23801348f97a-in.pcm	pcm8k	淘宝，晚上车里的。
+/home/hackathon/source/hackathon/record/0540d71c-368f-11e6-a287-23801348f97a-out.pcm	pcm8k	同屋晚上梦好。
+/home/hackathon/source/hackathon/record/c6eebcf6-36af-11e6-a5eb-23801348f97a.pcm	pcm8k	说。
+/home/hackathon/source/hackathon/record/c6eebcf6-36af-11e6-a5eb-23801348f97a-in.pcm	pcm8k	SHAO。
+/home/hackathon/source/hackathon/record/c6eebcf6-36af-11e6-a5eb-23801348f97a-out.pcm	pcm8k	说。
+/home/hackathon/source/hackathon/record/04d99a2c-36b0-11e6-a61a-23801348f97a.pcm	pcm8k	
+/home/hackathon/source/hackathon/record/04d99a2c-36b0-11e6-a61a-23801348f97a-in.pcm	pcm8k	信。
+/home/hackathon/source/hackathon/record/04d99a2c-36b0-11e6-a61a-23801348f97a-out.pcm	pcm8k	说。
+/home/hackathon/source/hackathon/record/4cbe5440-36b0-11e6-a645-23801348f97a.pcm	pcm8k	籣。
+/home/hackathon/source/hackathon/record/4cbe5440-36b0-11e6-a645-23801348f97a-in.pcm	pcm8k	爱。
+/home/hackathon/source/hackathon/record/4cbe5440-36b0-11e6-a645-23801348f97a-out.pcm	pcm8k	籣。
+/home/hackathon/source/hackathon/record/79fcd346-36b0-11e6-a66e-23801348f97a.pcm	pcm8k	她。SHAO。
+/home/hackathon/source/hackathon/record/79fcd346-36b0-11e6-a66e-23801348f97a-in.pcm	pcm8k	看。
+/home/hackathon/source/hackathon/record/79fcd346-36b0-11e6-a66e-23801348f97a-out.pcm	pcm8k	pop。止。
+/home/hackathon/source/hackathon/record/5e547a5c-36b7-11e6-a756-23801348f97a.pcm	pcm8k	出卖。
+/home/hackathon/source/hackathon/record/5e547a5c-36b7-11e6-a756-23801348f97a-in.pcm	pcm8k	Gai。
+/home/hackathon/source/hackathon/record/5e547a5c-36b7-11e6-a756-23801348f97a-out.pcm	pcm8k	爱。佬大。
+/home/hackathon/source/hackathon/record/24135f96-36b9-11e6-a7b0-23801348f97a.pcm	pcm8k	心跳。
+/home/hackathon/source/hackathon/record/24135f96-36b9-11e6-a7b0-23801348f97a-in.pcm	pcm8k	要。
+/home/hackathon/source/hackathon/record/24135f96-36b9-11e6-a7b0-23801348f97a-out.pcm	pcm8k	一。
+/home/hackathon/source/hackathon/record/085efb2a-36be-11e6-a865-23801348f97a.pcm	pcm8k	她。
+/home/hackathon/source/hackathon/record/085efb2a-36be-11e6-a865-23801348f97a-in.pcm	pcm8k	晨。
+/home/hackathon/source/hackathon/record/085efb2a-36be-11e6-a865-23801348f97a-out.pcm	pcm8k	看。
+/home/hackathon/source/hackathon/record/4c372282-36be-11e6-a88c-23801348f97a.pcm	pcm8k	她。
+/home/hackathon/source/hackathon/record/4c372282-36be-11e6-a88c-23801348f97a-in.pcm	pcm8k	信。sting。
+/home/hackathon/source/hackathon/record/4c372282-36be-11e6-a88c-23801348f97a-out.pcm	pcm8k	爱。
+/home/hackathon/source/hackathon/record/97a040be-36be-11e6-a8b9-23801348f97a.pcm	pcm8k	12345。雾。
+/home/hackathon/source/hackathon/record/97a040be-36be-11e6-a8b9-23801348f97a-in.pcm	pcm8k	一。止。
+/home/hackathon/source/hackathon/record/97a040be-36be-11e6-a8b9-23801348f97a-out.pcm	pcm8k	一。
+/home/hackathon/source/hackathon/record/ced4fd36-36be-11e6-a8e3-23801348f97a.pcm	pcm8k	US。Bay。止。游戏。
+/home/hackathon/source/hackathon/record/ced4fd36-36be-11e6-a8e3-23801348f97a-in.pcm	pcm8k	回。Gai。1234。
+/home/hackathon/source/hackathon/record/ced4fd36-36be-11e6-a8e3-23801348f97a-out.pcm	pcm8k	US。籣。毒。
+/home/hackathon/source/hackathon/record/924a38c6-36bf-11e6-a925-23801348f97a.pcm	pcm8k	止。12345的。
+/home/hackathon/source/hackathon/record/924a38c6-36bf-11e6-a925-23801348f97a-in.pcm	pcm8k	US。123456。毒。
+/home/hackathon/source/hackathon/record/924a38c6-36bf-11e6-a925-23801348f97a-out.pcm	pcm8k	Bay。12345。
+/home/hackathon/source/hackathon/record/8f110e32-36c4-11e6-a9d3-23801348f97a.pcm	pcm8k	浮。雅儿。
+/home/hackathon/source/hackathon/record/8f110e32-36c4-11e6-a9d3-23801348f97a-in.pcm	pcm8k	key。两西。
+/home/hackathon/source/hackathon/record/8f110e32-36c4-11e6-a9d3-23801348f97a-out.pcm	pcm8k	她。等。
+/home/hackathon/source/hackathon/record/c3558b6e-36c4-11e6-a9fe-23801348f97a.pcm	pcm8k	浮。123456。止。
+/home/hackathon/source/hackathon/record/c3558b6e-36c4-11e6-a9fe-23801348f97a-in.pcm	pcm8k	爱。1234王晶。
+/home/hackathon/source/hackathon/record/c3558b6e-36c4-11e6-a9fe-23801348f97a-out.pcm	pcm8k	爱。一。
+/home/hackathon/source/hackathon/record/fd42c440-36c4-11e6-aa29-23801348f97a.pcm	pcm8k	光。一。
+/home/hackathon/source/hackathon/record/fd42c440-36c4-11e6-aa29-23801348f97a-in.pcm	pcm8k	sky。1234567。
+/home/hackathon/source/hackathon/record/fd42c440-36c4-11e6-aa29-23801348f97a-out.pcm	pcm8k	一。
+/home/hackathon/source/hackathon/record/307b94ea-36c5-11e6-aa54-23801348f97a.pcm	pcm8k	一二。福镇。
+/home/hackathon/source/hackathon/record/307b94ea-36c5-11e6-aa54-23801348f97a-in.pcm	pcm8k	一。
+/home/hackathon/source/hackathon/record/307b94ea-36c5-11e6-aa54-23801348f97a-out.pcm	pcm8k	Yee。她。
+/home/hackathon/source/hackathon/record/5a39e088-36c6-11e6-aa97-23801348f97a.pcm	pcm8k	12345。Mc阿琦。浮。吃了吗。浮。鱼。key。
+/home/hackathon/source/hackathon/record/5a39e088-36c6-11e6-aa97-23801348f97a-in.pcm	pcm8k	12345。有East的party吗。毒。魏鹏。dj。女神。
+/home/hackathon/source/hackathon/record/5a39e088-36c6-11e6-aa97-23801348f97a-out.pcm	pcm8k	123。有薛乐的Busta Rap吗。看。吃饭了。她。旅程。Gai。
+/home/hackathon/source/hackathon/record/a46109ec-36c7-11e6-aadd-23801348f97a.pcm	pcm8k	有没有石璐的京情。stay。小小。
+/home/hackathon/source/hackathon/record/a46109ec-36c7-11e6-aadd-23801348f97a-in.pcm	pcm8k	12345。晨。
+/home/hackathon/source/hackathon/record/a46109ec-36c7-11e6-aadd-23801348f97a-out.pcm	pcm8k	1234567。Bay。
+/home/hackathon/source/hackathon/record/c42992b0-36ce-11e6-abc4-23801348f97a.pcm	pcm8k	1234567，就没。123456789。为了，里面坏的，发了。这个夜。
+/home/hackathon/source/hackathon/record/c42992b0-36ce-11e6-abc4-23801348f97a-in.pcm	pcm8k	你爱不爱你。123456789。好呢，那个里面会那个啥的。给个意见。
+/home/hackathon/source/hackathon/record/c42992b0-36ce-11e6-abc4-23801348f97a-out.pcm	pcm8k	12345，起来没东西吃就没。艾热。我那个那个，里面坏了。

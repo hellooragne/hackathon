@@ -8,7 +8,7 @@ import thread
 
 
   
-address = ('127.0.0.1', 9001)  
+address = ('127.0.0.1', 9002)  
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  
 s.bind(address)  
 
@@ -44,8 +44,24 @@ def real_time_domain():
     
     s.close() 
 
+def real_stop_domain():
+    address = ('127.0.0.1', 9001)  
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  
+    s.bind(address)
+
+    while True:
+        data, addr = s.recvfrom(2048)  
+
+        print "stop:", data, "from", addr 
+        
+        global uuid
+        uuid = ""
+ 
+    s.close() 
+
 
 thread.start_new_thread(real_time_domain, ())
+thread.start_new_thread(real_stop_domain, ())
 
 
   
@@ -67,7 +83,7 @@ while True:
         if uuid == "":
             continue  
         
-        if rtp_num < 3:
+        if rtp_num < 2:
             rtp_num = rtp_num + 1
             continue
         else:
@@ -87,8 +103,10 @@ while True:
             #print "python /home/hackathon/source/hackathon/recognition/baidu.py  /home/hackathon/source/hackathon/record/" + uuid +"-in.wav"
             str2 = os.popen("python /home/hackathon/source/hackathon/recognition/baidu.py  /home/hackathon/source/hackathon/record/" + uuid +"-in.wav").read()
             print str2
-            #cur.execute("insert into voice_real_time (uuid, type, supplier, result, start_time) values ('" + uuid + "', 'in',  'baidu', '" + str2 + "', " + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + ")")
-            #conn.commit()
+
+            cur.execute("set names utf8;")
+            cur.execute("insert into voice_real_time (uuid, type, supplier, result, start_time) values ('" + uuid + "', 'in',  'baidu', '" + str2 + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
+            conn.commit()
         except MySQLdb.Error,e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
@@ -105,8 +123,8 @@ while True:
             #baidu
             str3 = os.popen("python /home/hackathon/source/hackathon/recognition/baidu.py  /home/hackathon/source/hackathon/record/" + uuid +"-out.wav").read()
             print str3
-            #cur.execute("insert into voice_real_time (uuid, type, supplier, result, start_time) values ('" + uuid + "', 'out', 'baidu', '" + str3 + "', " + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + ")")
-            #conn.commit()
+            cur.execute("insert into voice_real_time (uuid, type, supplier, result, start_time) values ('" + uuid + "', 'out', 'baidu', '" + str3 + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
+            conn.commit()
         except Exception , e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
