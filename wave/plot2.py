@@ -58,14 +58,14 @@ for index in range(len(waveData)):
     else:
         if (index - start_num) > continue_num and continue_flag == 1:
            #print "start num", start_num , "end num", index, "start_time:", start_num * (1.0 / framerate), "end time:", index * (1.0 / framerate)
-           wave_result.append("start num:" + str(start_num) + " end num:" + str(index) + " start_time:"+ str(start_num * (1.0 / framerate))+ " end time:"+ str(index * (1.0 / framerate)) + "\n")
+           wave_result.append("start_time:"+ str(start_num * (1.0 / framerate))[0:6] + " end time:"+ str(index * (1.0 / framerate))[0:6] + "\n")
         continue_flag = 0
 
     if index + 1 == len(waveData):
         #print "end:", index, "start num", start_num, "continue_flag", continue_flag
         if (index - start_num) > continue_num and continue_flag == 1:
            #print "start num", start_num , "end num", index, "start_time:", start_num * (1.0 / framerate), "end time:", index * (1.0 / framerate)
-           wave_result.append("start num" + str(start_num) + " end num" + str(index) + " start_time:"+ str(start_num * (1.0 / framerate))+ " end time:"+ str(index * (1.0 / framerate)) + "\n")
+           wave_result.append("start_time:"+ str(start_num * (1.0 / framerate))[0:6] + " end time:"+ str(index * (1.0 / framerate))[0:6] + "\n")
 print ''.join(wave_result)
 
 

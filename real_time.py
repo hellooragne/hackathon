@@ -40,6 +40,10 @@ def real_time_domain():
  
         global rtp_num
         rtp_num = 0
+
+        
+        global rtp_start
+        rtp_start = 1
        
     
     s.close() 
@@ -54,8 +58,8 @@ def real_stop_domain():
 
         print "stop:", data, "from", addr 
         
-        global uuid
-        uuid = ""
+        global rtp_start
+        rtp_start = 0
  
     s.close() 
 
@@ -78,7 +82,10 @@ while True:
         
         global uuid
         global rtp_num
-
+        global rtp_start
+        
+        if rtp_start == 0:
+            continue
 
         if uuid == "":
             continue  
