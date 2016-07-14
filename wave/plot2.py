@@ -8,6 +8,8 @@ import string
 import datetime
 import numpy as np
 import matplotlib as mpl
+import json
+
 mpl.use('Agg')
 #import pylab as pl
 import matplotlib.pyplot as pl
@@ -40,7 +42,7 @@ index2 = 10512.0 / framerate
 index3 = 15000.0 / framerate
 index4 = 15512.0 / framerate
 
-gate = 1000
+gate = 1500
 continue_num = 8000
 
 start_num = 0
@@ -58,15 +60,25 @@ for index in range(len(waveData)):
     else:
         if (index - start_num) > continue_num and continue_flag == 1:
            #print "start num", start_num , "end num", index, "start_time:", start_num * (1.0 / framerate), "end time:", index * (1.0 / framerate)
-           wave_result.append("start_time:"+ str(start_num * (1.0 / framerate))[0:6] + " end time:"+ str(index * (1.0 / framerate))[0:6] + "\n")
+           a = dict()
+           a['start_time'] = str(start_num * (1.0 / framerate))[0:6]
+           a['end_time']   = str(index * (1.0 / framerate))[0:6]
+           wave_result.append(a)
+           #wave_result.append("start_time:"+ str(start_num * (1.0 / framerate))[0:6] + " end_time:"+ str(index * (1.0 / framerate))[0:6] + "\n")
         continue_flag = 0
 
     if index + 1 == len(waveData):
         #print "end:", index, "start num", start_num, "continue_flag", continue_flag
         if (index - start_num) > continue_num and continue_flag == 1:
            #print "start num", start_num , "end num", index, "start_time:", start_num * (1.0 / framerate), "end time:", index * (1.0 / framerate)
-           wave_result.append("start_time:"+ str(start_num * (1.0 / framerate))[0:6] + " end time:"+ str(index * (1.0 / framerate))[0:6] + "\n")
-print ''.join(wave_result)
+           a = dict()
+           a['start_time'] = str(start_num * (1.0 / framerate))[0:6]
+           a['end_time']   = str(index * (1.0 / framerate))[0:6]
+           wave_result.append(a)
+           #wave_result.append("start_time:"+ str(start_num * (1.0 / framerate))[0:6] + " end_time:"+ str(index * (1.0 / framerate))[0:6] + "\n")
+
+print json.dumps(wave_result)
+#print ''.join(wave_result)
 
 
 try:
@@ -77,7 +89,7 @@ try:
 except MySQLdb.Error,e:
      print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
-cur.execute("insert into voice_wave (uuid, type,  result, pic, start_time) values ('" + filename + "', 'in',  '" + ''.join(wave_result) + "','" + filename + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
+cur.execute("insert into voice_wave (uuid, type,  result, pic, start_time) values ('" + filename + "', 'in',  '" + json.dumps(wave_result) + "','" + filename + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
 conn.commit()
 
 

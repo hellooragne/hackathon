@@ -114,6 +114,12 @@ while True:
             cur.execute("set names utf8;")
             cur.execute("insert into voice_real_time (uuid, type, supplier, result, start_time) values ('" + uuid + "', 'in',  'baidu', '" + str2 + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
             conn.commit()
+
+
+            #kword
+            str_word = os.popen("python /home/hackathon/git/hackathon/recognition/kword.py " + uuid + " in  baidu " + str2).read()
+            print str_word
+
         except MySQLdb.Error,e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
@@ -132,6 +138,12 @@ while True:
             print str3
             cur.execute("insert into voice_real_time (uuid, type, supplier, result, start_time) values ('" + uuid + "', 'out', 'baidu', '" + str3 + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
             conn.commit()
+
+            #kword
+            str_word = os.popen("python /home/hackathon/git/hackathon/recognition/kword.py " + uuid + " out  baidu " + str3).read()
+            print str_word
+
+
         except Exception , e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 

@@ -54,25 +54,36 @@ while True:
             cur.execute("insert into voice_recognition (uuid, type, supplier, result, start_time) values ('" + data + "', 'all', 'baidu', '" + str1 + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
             conn.commit()
 
+            cur.execute("insert into voice_recognition (uuid, type, supplier, result, start_time) values ('" + data + "', 'all', 'baidu', '" + str1 + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
+            conn.commit()
+
+            #kword
+            str_word = os.popen("python /home/hackathon/git/hackathon/recognition/kword.py " + data + " all  baidu "+ str1).read()
+            print str_word
+
             #yunzhiying
             p =subprocess.Popen('sample v2.hivoice.cn 80 /home/hackathon/source/hackathon/record/' + data + '.pcm ./result.txt', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
             str1 = p.stderr.readline()
             print str1
             cur.execute("insert into voice_recognition (uuid, type, supplier, result, start_time) values ('" + data + "', 'all', 'yunzhiying', '" + str1 + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
             conn.commit()
+            
+            #kword
+            str_word = os.popen("python /home/hackathon/git/hackathon/recognition/kword.py " + data + " all  yunzhiying "+ str1 ).read()
+            print str_word
+
+
         except MySQLdb.Error,e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
-
-
-
-
-
 
 
         #------process cdr 
         p =subprocess.Popen('/home/hackathon/source/hackathon/cdr/upload_cdr.pl', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
         #print p.stderr.readline()
 
+
+        str1 = os.popen("python /home/hackathon/git/hackathon/wave/plot2.py " + data).read()
+        print str1
 
 
 
@@ -92,6 +103,13 @@ while True:
             print str2
             cur.execute("insert into voice_recognition (uuid, type, supplier, result, start_time) values ('" + data + "', 'in',  'baidu', '" + str2 + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
             conn.commit()
+
+
+            #kword
+            str_word = os.popen("python /home/hackathon/git/hackathon/recognition/kword.py " + data + " in  baidu " + str2).read()
+            print str_word
+
+
         except MySQLdb.Error,e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
@@ -102,10 +120,17 @@ while True:
             print str1
             cur.execute("insert into voice_recognition (uuid, type, supplier, result, start_time) values ('" + data + "', 'in', 'yunzhiying', '" + str1 + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
             conn.commit()
+
+            #kword
+            str_word = os.popen("python /home/hackathon/git/hackathon/recognition/kword.py " + data + " in  yunzhiying " + str1).read()
+            print str_word
+
+
         except MySQLdb.Error,e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
-        
+        str2 = os.popen("python /home/hackathon/git/hackathon/wave/plot2.py " + data + "-in").read()
+        print str2       
 
         #------process out  voice
         p =subprocess.Popen('ffmpeg -f mulaw -ar 8000 -ac 1 -i /home/hackathon/source/hackathon/record/' + data + '-out.PCMU -ar 8000 -ac 1 /home/hackathon/source/hackathon/record/' + data +'-out.wav', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
@@ -124,6 +149,12 @@ while True:
             print str3
             cur.execute("insert into voice_recognition (uuid, type, supplier, result, start_time) values ('" + data + "', 'out', 'baidu', '" + str3 + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
             conn.commit()
+            
+            #kword
+            str_word = os.popen("python /home/hackathon/git/hackathon/recognition/kword.py " + data + " out  baidu " + str3).read()
+            print str_word
+
+
         except MySQLdb.Error,e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
@@ -134,19 +165,21 @@ while True:
             print str1
             cur.execute("insert into voice_recognition (uuid, type, supplier, result, start_time) values ('" + data + "', 'out', 'yunzhiying', '" + str1 + "', '" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "')")
             conn.commit()
+
+            #kword
+            str_word = os.popen("python /home/hackathon/git/hackathon/recognition/kword.py " + data + " out  yunzhiying " + str1).read()
+            print str_word
+
         except MySQLdb.Error,e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
+        
 
-        str1 = os.popen("python /home/hackathon/git/hackathon/wave/plot2.py " + data).read()
-        print str1
-        str2 = os.popen("python /home/hackathon/git/hackathon/wave/plot2.py " + data + "-in").read()
-        print str2
         str3 = os.popen("python /home/hackathon/git/hackathon/wave/plot2.py " + data + "-out").read()
         print str3
+
     except MySQLdb.Error,e:
         print "Mysql Error %d: %s" % (e.args[0], e.args[1])
-
 
 
 s.close() 
